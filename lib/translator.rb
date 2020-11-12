@@ -1,7 +1,6 @@
-
 require "yaml"
-emoticons = YAML.load_file('./lib/emoticons.yml')
-puts emoticons
+ path = YAML.load_file('./lib/emoticons.yml')
+ puts path
 
 def load_library(path)
    final_hash = {}
