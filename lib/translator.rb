@@ -12,8 +12,8 @@ end
 final
 end
 
-def get_japanese_emoticon(emoticons)
-  
+def get_japanese_emoticon(emoticons,emoticon)
+  YAML.load_file(emoticons).each do |ke
 end
 
 def get_english_meaning
