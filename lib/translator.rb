@@ -9,6 +9,8 @@ YAML.load_file(emoticons).each do |key, value|
   final[key][:english] = [:value][0]
   final[key][:japanese] = [:value][1]
 end
+final
+end
 
 def get_japanese_emoticon(emoticons)
   
