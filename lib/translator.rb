@@ -18,7 +18,7 @@ def get_japanese_emoticon(emoticons,emoticon)
       return value[:japanese]
     end
   end
-  return 
+  return "Sorry, that value "
 end
 
 def get_english_meaning
