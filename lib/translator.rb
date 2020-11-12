@@ -23,7 +23,7 @@ def get_japanese_emoticon(emoticons,emoticon)
 end
 
 def get_english_meaning(emoticons, emoticon)
-  YAML.load_file(emoticons).each do |key, value|
+  load_library(emoticons).each do |key, value|
     if value[:japanese] == emoticon
       return key
     end
