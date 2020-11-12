@@ -6,7 +6,8 @@ puts emoticons
 def load_library(emoticons)
 YAML.load_file(emoticons).each do |key, value|
   final[key] = []
-  
+  final[key][:english] = [:value][0]
+  final[key][:japanese] = [:value][1]
 end
 
 def get_japanese_emoticon(emoticons)
